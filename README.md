@@ -1,5 +1,5 @@
 
- <a href="https://leonardobruchez.github.io/rocketseat/index.html"> ABRIR SITE
+ <a href="https://leonardobruchez.github.io/rocketseat/index.html"> Abrir página
 
 <h1 align="center"> DevLinks </h1>
 
