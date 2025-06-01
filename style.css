@@ -233,23 +233,46 @@ footer a{
   height: 100vh;
 }
 
+header {
+  margin: 24px auto 0 auto;
+  width: 100%;
+  max-width: 588px;
+  background-color: var(--background-color);
+  border-radius: 12px 12px 0 0;
+  text-align: center;
+}
+
 #profile-page2{
-  margin: 24px auto;
+  margin: 0px auto 0 auto;
   width: 100%;
   max-width: 588px;
   background-color: var(--background-color);
   text-align: center;
-  border-radius: 12px 12px 0 0;
+
 }
+
+
 
 #profile-page2 p{
   font-family:"anton" ;
   font-weight: 400;
   font-size: 20px;
+  display: block;
 }
 
 #profile-page2 a{
   color: var(--text-color);
+}
+
+#profile-page2 img{
+  width: 200px;
+  border-radius: 10px;
+  margin-left: -60%;
+}
+
+#profile-page2 h2{
+  
+  
 }
 #button-backpage a{
  text-decoration: none;
