@@ -1,10 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -20,6 +27,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(assets/moon-stars.svg);
+  --background-color: rgb(28, 6, 25);
 }
 
 .light {
@@ -30,6 +38,7 @@
 --surface-color-hover: rgba(0, 0, 0, 0.02);
 --highlight-color: rgba(0, 0, 0, 0.1);
 --switch-bg-url: url(assets/sun.svg);
+--background-color: white;
 }
 
 body {
@@ -216,3 +225,34 @@ footer a{
     left: 0;
   }
 }
+
+
+/* Page 2*/
+#body-page2 {
+  background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
+}
+
+#profile-page2{
+  margin: 24px auto;
+  width: 100%;
+  max-width: 588px;
+  background-color: var(--background-color);
+  text-align: center;
+  border-radius: 12px 12px 0 0;
+}
+
+#profile-page2 p{
+  font-family:"anton" ;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#profile-page2 a{
+  color: var(--text-color);
+}
+#button-backpage a{
+ text-decoration: none;
+ 
+}
+
