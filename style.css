@@ -22,23 +22,30 @@
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
+  --bg-2:url(./assets/bg-mobile.jpg);
   --stroke-color:rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(assets/moon-stars.svg);
+
   --background-color: rgb(28, 6, 25);
+  --font-anton: "Anton", sans-serif;
+  --background-color2:rgb(28, 6, 25);
+
 }
 
 .light {
 --text-color: black;
 --bg-url: url(./assets/bg-mobile-light.jpg);
+--bg-2:linear-gradient(90deg,rgb(185, 250, 224) 0%, rgb(201, 208, 255) 59%, rgba(105, 230, 255, 1) 100%);
 --stroke-color:rgba(0, 0, 0, 0.5);
 --surface-color: rgba(0, 0, 0, 0.05);
 --surface-color-hover: rgba(0, 0, 0, 0.02);
 --highlight-color: rgba(0, 0, 0, 0.1);
 --switch-bg-url: url(assets/sun.svg);
 --background-color: white;
+--background-color2:rgba(255, 255, 255, 0.953);
 }
 
 body {
@@ -229,35 +236,49 @@ footer a{
 
 /* Page 2*/
 #body-page2 {
-  background: var(--bg-url) no-repeat top center/cover;
+  background: var(--bg-2) no-repeat top center/cover;
+  background-attachment: fixed; /* fixa a imagem */
   height: 100vh;
 }
 
-header {
+main {
   margin: 24px auto 0 auto;
   width: 100%;
   max-width: 588px;
-  background-color: var(--background-color);
   border-radius: 12px 12px 0 0;
   text-align: center;
+  padding-bottom: 10px;
+  padding: 24px;
 }
+
+header p{
+  padding: 15px 0px 15px 0px;
+}
+
+
+
+
 
 #profile-page2{
   margin: 0px auto 0 auto;
   width: 100%;
   max-width: 588px;
-  background-color: var(--background-color);
+ 
   text-align: center;
 
 }
 
-
+#profile-page2 h2{
+  margin-top: 20px;
+}
 
 #profile-page2 p{
-  font-family:"anton" ;
   font-weight: 400;
   font-size: 20px;
   display: block;
+  margin: 0 0px 10px 0px;
+  text-align: justify;
+  padding: 10px 0px 0px 15px;
 }
 
 #profile-page2 a{
@@ -265,15 +286,40 @@ header {
 }
 
 #profile-page2 img{
-  width: 200px;
+  width: 300px;
+  max-width: 300px;
   border-radius: 10px;
-  margin-left: -60%;
+  margin: auto;
 }
 
-#profile-page2 h2{
-  
+p#Contact-Linkedin {
+  text-align: center;
+  margin: 0px;
+  padding: 10px;
   
 }
+
+#Contact-Linkedin a{
+  text-decoration: none;
+}
+
+p#Contact-Email {
+  text-align: center;
+  margin: 0px;
+  padding: 0px 0px 20px 0;
+  
+}
+#Contact-Email a{
+  text-decoration: none;
+}
+
+aside {
+  margin: 24px auto 0 auto;
+  width: 100%;
+  max-width: 588px;
+}
+
+
 #button-backpage a{
  text-decoration: none;
  
