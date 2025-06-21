@@ -1,6 +1,5 @@
 
  <a href="https://www.abelviagens.com.br/"> Abrir página
-<p>Este foi meu PRIMEIRO PROJETO real,sem ter tanto conhecimento na área,atualmente tenho conhecimento avançado em CSS,HTML,FIGMA,e iniciando em JAVASCRIPT</p>
 <h1 align="center"> DevLinks </h1>
 
 <p align="center">
