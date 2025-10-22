@@ -1,7 +1,5 @@
 
  # 🚀 DevLinks - Cartão de Visitas Digital
-
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Acessar%20Site-49AA26?style=for-the-badge)](https://leonardobruchez.github.io/rocketseat/)
 [![License](https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000&style=for-the-badge)](https://github.com/LeonardoBruchez/rocketseat/blob/main/LICENSE)
 
 <p align="center">
@@ -30,8 +28,7 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - **HTML5** - Estrutura semântica e acessível
 - **CSS3** - Estilização moderna com Flexbox e Grid
-- **JavaScript (ES6+)** - Interatividade e funcionalidades dinâmicas
-- **Ionicons** - Ícones vetoriais para redes sociais
+- **JavaScript** - Interatividade e funcionalidades dinâmicas
 - **Git & GitHub** - Controle de versão e hospedagem
 - **Figma** - Design e prototipação
 
@@ -61,19 +58,6 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **Tipografia** clara e legível
 - **Cores** harmoniosas e profissionais
 - **Animações** sutis e elegantes
-
----
-
-## 🖼 Preview
-
-### Modo Escuro
-![Preview Modo Escuro](assets/bg-desktop.jpg)
-
-### Modo Claro  
-![Preview Modo Claro](assets/bg-desktop-light.jpg)
-
-### Versão Mobile
-![Preview Mobile](assets/bg-mobile.jpg)
 
 ---
 
@@ -168,5 +152,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 <div align="center">
   <p>Feito com ❤️ por <a href="https://github.com/LeonardoBruchez">Leonardo Bruchez</a></p>
-  <p>💜 <a href="https://discord.gg/rocketseat">Participe da nossa comunidade!</a></p>
 </div>
